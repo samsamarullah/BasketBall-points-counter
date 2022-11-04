@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-box">
+                <h1>HOME</h1>
+                <div class="score">
+                    <p id="home-score"></p>
+                </div>
+                <div class="buttons-increment">
+                    <button class="home-button-1" onclick="plus1Home()">+1</button>
+                    <button class="home-button-2" onclick="plus2Home()">+2</button>
+                    <button class="home-button-3" onclick="plus3Home()">+3</button>
+                </div>
+            </div>
+            <div class="ball"></div>
+            <div id="guest-box">
+                <h1>GUEST</h1>
+                <div class="score">
+                    <p id="guest-score"></p>
+                </div>
+                <div class="buttons-increment">
+                    <button class="away-button-1" onclick="plus1Guest()">+1</button>
+                    <button class="away-button-2" onclick="plus2Guest()">+2</button>
+                    <button class="away-button-3" onclick="plus3Guest()">+3</button>
+                </div>
+            </div>
+        </div>
+            <div class="clear-score">
+                <button class="clear-score" onclick="clearScore()">Clear Score</button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>

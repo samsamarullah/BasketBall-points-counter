@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #0369A1;
+}
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 75px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+#home-box, #guest-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: 'Comic Neue', cursive;
+    color: #ee6730;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 0 0 5px black;
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;;
+    border-radius: 50%;
+    background: #ee6730;
+    font-family: timer;
+    text-align: center;
+}
+p {
+    font-size: 100px;
+    align-content: center;
+    color: black;
+    text-shadow: 0 0 10px black;
+}
+.buttons-increment {
+    margin-top: 10px;
+    width: 40px 20px 40px 20px;
+    padding: 50px;
+    font-size: 20px;
+}
+.home-button-1, .home-button-2, .home-button-3, .away-button-1, .away-button-2, .away-button-3 {
+    background-image: url("basketball.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #ee6730;
+}
+
+.clear-score {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
